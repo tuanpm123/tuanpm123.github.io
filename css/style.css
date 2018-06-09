@@ -1,0 +1,157 @@
+.container a{
+	text-decoration: none;
+}
+.logo{
+	padding: 0px 0px 0px 120px;
+   
+}
+a{
+	text-decoration: none;
+}
+li{list-style: none;
+    float: left;
+}
+
+.header-menu{
+	padding:10px 0px;
+	text-align:center;
+	background: none;
+	border: none;
+	margin:0px;
+}
+.header-menu a{
+	text-decoration: none;
+}
+
+.collapse-li{
+        margin-top: 30px;
+        margin-left: 80px;
+    }
+.header-menu li{
+   	padding: 0px 20px ;
+   }
+
+.header-title{
+	background: url(../img/headerbg.png);
+	padding: 20px 0px 0px;
+			}
+.header-title a{
+	margin-left: 150px;
+}
+.title{
+    padding: 50px 0px;
+    line-height: 2;
+}
+.title h1{
+color: #fff;
+}
+.title p{
+	font-size: 18px;
+color: #fff;
+}
+.title button{
+	background: #5094f2;
+	color: #fff;
+	font-size: 26px;
+}
+.row1{
+	margin: 30px;
+	}
+.row1 img{
+	margin: 0px 20px;
+}
+.text{
+	text-align: left;
+	padding: 20px 20px;
+}
+.text a{
+	font-size: 25px;
+}
+.row2{
+	padding: 20px;
+	
+}
+.row2 h1{
+	text-align: center;
+	
+}
+.row2 img{
+	padding: 10px 30px;
+}
+.info{
+    line-height: 2;
+    padding-top: 20px;
+}
+.footer{
+	padding: 40px;
+	text-align: center;
+}
+.container{
+    border-style: solid;
+}
+
+@media screen and (max-width : 768px) {
+    .collapse-li li{
+    	padding:10px 0px;
+    	float:none;
+    }
+    .header-title a{
+      
+    margin-left: 10px;
+}
+    .logo{
+    	padding-left:10px;}
+    	
+    .navbar-header button {margin:10px 0px;}
+    .content{
+    	padding: 5px 0px;
+    	border-bottom: solid;
+    	border-bottom-color: gray;
+    	border-width: 1px;
+    }
+    .row1 {
+    	
+    	margin:auto;
+    	padding:10px 0px;
+        }
+    .row1 img{
+    	margin:auto;
+    	padding:0px;
+    }
+    .text {
+    	margin:auto;
+    	padding:20px 0px;
+   }
+
+
+@media screen and (max-width : 650px) {
+    .collapse-li li{
+    	padding:10px 0px;
+    	float:none;
+    }
+     .header-title a{
+    margin-left: 10px;}
+    .logo{
+    	padding-left:10px;}
+    	
+    .navbar-header button {margin:10px 0px;}
+  
+    .row1 {
+    	
+    	margin:auto;
+    	padding:10px 0px;
+        }
+    .row1 img{
+    	margin:auto;
+    	padding:0px;
+    }
+    .text {
+    	margin:auto;
+    	padding:20px 0px;
+    }
+    .content{
+    	border-bottom: solid;
+    	border-bottom-color: gray;
+    	border-width: 1px;
+    }
+}
