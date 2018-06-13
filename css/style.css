@@ -113,6 +113,18 @@ color: #fff;
     	margin:auto;
     	padding:20px 0px;
    }
+   .header-title img{
+        max-width: 100%;
+        height: auto;
+    }
+    .content img{
+        max-width: 100%;
+        height: auto;
+    }
+    .row2 img{
+        max-width: 100%;
+        height: auto;    
+    }
 }
 @media screen and (max-width : 650px) {
     .collapse-li li{
