@@ -2,11 +2,8 @@
 	text-decoration: none;
 }
 .logo{
-	padding: 0px 0px 0px 120px;
+	padding: 15px 0px 0px 120px;
    }
-a{
-	text-decoration: none;
-}
 li{list-style: none;
     float: left;
 }
@@ -17,8 +14,15 @@ li{list-style: none;
 	border: none;
 	margin:0px;
 }
-.header-menu a{
-	text-decoration: none;
+#header .collapse a{
+    padding: 10px;
+}
+#header .collapse a:hover{
+    border: 2px solid yellow;
+    color: #000;
+}
+#header .collapse a.active{
+    border-bottom: 2px solid red;
 }
 .collapse-li{
         margin-top: 30px;
