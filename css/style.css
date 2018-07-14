@@ -86,19 +86,16 @@ color: #fff;
 	padding: 40px;
 	text-align: center;
 }
-
-@media screen and (max-width : 768px) {
+@media only screen and (max-width: 800px) {
     .collapse-li li{
     	padding:10px 0px;
     	float:none;
     }
     .header-title a{
       margin-left: 10px;
-}
+    }
     .logo{
     	padding-left:10px;}
-    	
-    .navbar-header button {margin:10px 0px;}
     .content{
     	padding: 5px 0px;
     	border-bottom: solid;
@@ -128,36 +125,5 @@ color: #fff;
     .row2 img{
         max-width: 100%;
         height: auto;    
-    }
-}
-@media screen and (max-width : 650px) {
-    .collapse-li li{
-    	padding:10px 0px;
-    	float:none;
-    }
-     .header-title a{
-    margin-left: 10px;}
-    .logo{
-    	padding-left:10px;}
-    	
-    .navbar-header button {margin:10px 0px;}
-  
-    .row1 {
-    	
-    	margin:auto;
-    	padding:10px 0px;
-        }
-    .row1 img{
-    	margin:auto;
-    	padding:0px;
-    }
-    .text {
-    	margin:auto;
-    	padding:20px 0px;
-    }
-    .content{
-    	border-bottom: solid;
-    	border-bottom-color: gray;
-    	border-width: 1px;
     }
 }
