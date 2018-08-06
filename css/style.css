@@ -18,18 +18,17 @@ li{list-style: none;
     padding: 10px;
 }
 #header .collapse a:hover{
-    border: 2px solid yellow;
     color: #000;
 }
-#header .collapse a.active{
-    border-bottom: 2px solid red;
+#header .active{
+    background-color: #666;
 }
 .collapse-li{
         margin-top: 30px;
         margin-left: 80px;
     }
 .header-menu li{
-   	padding: 0px 20px ;
+   	padding: 10px ;
    }
 .header-title{
 	background: url(../img/headerbg.png);
