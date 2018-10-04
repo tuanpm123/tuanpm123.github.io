@@ -92,6 +92,17 @@ li{list-style: none;
 	background: #5094f2;
 	font-size: 26px;
 }
+.content img:hover{
+    animation: flip 1s;
+}
+.wellcome{
+    padding-top: 30px;
+    animation: titleimg 2s forwards;
+}
+.ct1{
+    padding-top: 20px;
+    line-height: 25px;
+}
 .row1{
 	margin: 30px;
 	}
@@ -145,7 +156,7 @@ li{list-style: none;
     background-color: #555; /* Add a dark-grey background on hover */
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 767px) {
     .collapse-li li{
     	padding:10px 0px;
     	float:none;
@@ -185,5 +196,22 @@ li{list-style: none;
         max-width: 100%;
         height: auto;    
     }
+    .title1{
+        font-size: 25px;
+    }
+    .title2{
+        font-size: 14px;
+    }
+    .title button{
+        font-size: 16px;
+    }
 }
 
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .content{
+        padding: 5px 0px;
+        border-bottom: solid;
+        border-bottom-color: gray;
+        border-width: 1px;
+    }
+}
