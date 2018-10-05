@@ -116,6 +116,42 @@ li{list-style: none;
 .text a{
 	font-size: 25px;
 }
+.products{
+    margin-bottom: 40px;
+}
+.sanpham{
+    
+    margin-bottom: 40px;
+}
+.sp2{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.thongtinsp{
+    display: block;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    background: #C9C8C8;
+    padding: 20px 0px 20px 20px;
+    transition: 0.4s;
+    bottom: -200px;
+}
+/* di chuot vao sp tac dung len thongtinsp */
+a.sp2:hover .thongtinsp{
+    bottom: 0px;
+}
+
+h4.tensp{
+    font-weight: bold;
+    text-transform: uppercase;
+
+
+}
+
 .row2{
 	padding: 20px;
 	
